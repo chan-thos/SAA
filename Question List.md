@@ -5,3 +5,4 @@
 - How to handle exception on the event source handler?
 - How to maintain the config value for different environment (QA/Pre-Prod/Prod) ?
 - About the exception handling in the event consumer side,  if the listener/handler has exception when processing an event message, how to how handle it? How to re-process it?
+- Assume that we have 3 microservices A, B & C. B & C listen to all events published from A. But due to some issues, B is dead unfortunately and misses some events (C is healthy). Is there any good approach to help B to get back the missing events ?
