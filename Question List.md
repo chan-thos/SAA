@@ -1,1 +1,1 @@
-Testing
+- If Container Event is an event in CQRS, and "Undo" event is one kind of it, then how can the snapshot be built to restore the snapshot to previous image?
